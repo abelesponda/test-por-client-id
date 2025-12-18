@@ -1,6 +1,6 @@
 {
   "@context": ["https://www.w3.org/ns/solid/oidc-context.jsonld"],
-  "client_id": "https://raw.githack.com/abelesponda/test-por-client-id/main/client-id.json",
+  "client_id": "https://raw.githack.com/abelesponda/public-pod-client-id/main/client-id.json",
   "client_name": "FySelf Profile Staging",
   "redirect_uris": [
     "http://localhost:8080/v3/pod/callback",
