@@ -1,10 +1,9 @@
 {
   "@context": ["https://www.w3.org/ns/solid/oidc-context.jsonld"],
   "client_id": "https://raw.githack.com/abelesponda/public-pod-client-id/main/client-id.json",
-  "client_name": "FySelf Profile Staging",
+  "client_name": "FySelf Profile",
   "redirect_uris": [
-    "http://localhost:8080/v3/pod/callback",
-    "https://staging.fyself.com/v3/pod/callback"
+    "https://staging-backend.fyself.com/v3/pod/callback"
   ],
   "grant_types": ["authorization_code", "refresh_token"],
   "scope": "openid webid offline_access"
